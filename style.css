@@ -1,0 +1,33 @@
+.center-screen {
+    display: flex;
+    flex-direction: column; /* Stack the paragraphs vertically */
+    justify-content: center; /* Vertically center the content */
+    align-items: center; /* Horizontally center the content */
+    text-align: center;
+    min-height: 100vh;
+    font-family: 'Open Sans';
+    padding-left: 8em;
+    padding-right: 8em;
+    color: #fff;
+    font-weight: 600;
+}
+
+body {
+    background: linear-gradient(to bottom, #003366, #003366,#003366,#003366, black);
+}
+
+.nomargintop {
+    margin-top: 0px !important;
+}
+
+.nomarginbottom {
+    margin-bottom: 0px !important;
+}
+
+.section2 {
+   font-style: italic;
+   margin-top: 3em; 
+}
+a {
+    color: #ED4D3D;
+}
